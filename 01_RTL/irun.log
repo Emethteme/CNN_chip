@@ -1,0 +1,305 @@
+irun: 13.10-s005: (c) Copyright 1995-2013 Cadence Design Systems, Inc.
+TOOL:	irun	13.10-s005: Started on Jan 16, 2018 at 10:17:34 CST
+irun
+	TESTBED.v
+	-define RTL
+	-debug
+	-v ../04_MEM/RA1SH.v
+	-notimingchecks
+	+incdir+/usr/synthesis/dw/sim_ver
+file: TESTBED.v
+	module worklib.RA1SH:v
+		errors: 0, warnings: 0
+// 取[13:8]
+   |
+ncvlog: *W,NONPRT (CNN.v,10|3): non-printable character (0xe5) ignored.
+(`include file: CNN.v line 10, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 取[13:8]
+    |
+ncvlog: *W,NONPRT (CNN.v,10|4): non-printable character (0x8f) ignored.
+(`include file: CNN.v line 10, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 取[13:8]
+     |
+ncvlog: *W,NONPRT (CNN.v,10|5): non-printable character (0x96) ignored.
+(`include file: CNN.v line 10, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+   |
+ncvlog: *W,NONPRT (CNN.v,11|3): non-printable character (0xe5) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+    |
+ncvlog: *W,NONPRT (CNN.v,11|4): non-printable character (0x9b) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+     |
+ncvlog: *W,NONPRT (CNN.v,11|5): non-printable character (0x9b) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+      |
+ncvlog: *W,NONPRT (CNN.v,11|6): non-printable character (0xe6) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+       |
+ncvlog: *W,NONPRT (CNN.v,11|7): non-printable character (0x8d) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+        |
+ncvlog: *W,NONPRT (CNN.v,11|8): non-printable character (0xa8) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+         |
+ncvlog: *W,NONPRT (CNN.v,11|9): non-printable character (0xe4) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+          |
+ncvlog: *W,NONPRT (CNN.v,11|10): non-printable character (0xba) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+           |
+ncvlog: *W,NONPRT (CNN.v,11|11): non-printable character (0x94) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+            |
+ncvlog: *W,NONPRT (CNN.v,11|12): non-printable character (0xe5) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+             |
+ncvlog: *W,NONPRT (CNN.v,11|13): non-printable character (0x85) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 四捨五入
+              |
+ncvlog: *W,NONPRT (CNN.v,11|14): non-printable character (0xa5) ignored.
+(`include file: CNN.v line 11, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+   |
+ncvlog: *W,NONPRT (CNN.v,14|3): non-printable character (0xe6) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+    |
+ncvlog: *W,NONPRT (CNN.v,14|4): non-printable character (0xad) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+     |
+ncvlog: *W,NONPRT (CNN.v,14|5): non-printable character (0xa3) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+      |
+ncvlog: *W,NONPRT (CNN.v,14|6): non-printable character (0xe7) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+       |
+ncvlog: *W,NONPRT (CNN.v,14|7): non-printable character (0xa2) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+        |
+ncvlog: *W,NONPRT (CNN.v,14|8): non-printable character (0xba) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+         |
+ncvlog: *W,NONPRT (CNN.v,14|9): non-printable character (0xe7) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+          |
+ncvlog: *W,NONPRT (CNN.v,14|10): non-printable character (0x8e) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+           |
+ncvlog: *W,NONPRT (CNN.v,14|11): non-printable character (0x87) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+            |
+ncvlog: *W,NONPRT (CNN.v,14|12): non-printable character (0xef) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+             |
+ncvlog: *W,NONPRT (CNN.v,14|13): non-printable character (0xbc) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+// 正確率：8
+              |
+ncvlog: *W,NONPRT (CNN.v,14|14): non-printable character (0x9a) ignored.
+(`include file: CNN.v line 14, `include file: PATTERN.v line 23, file: TESTBED.v line 2)
+	module worklib.CNN:v
+		errors: 0, warnings: 0
+	module worklib.PATTERN:v
+		errors: 0, warnings: 0
+module RA1SH (
+           |
+ncvlog: *W,RECOME (/misc/RAID2/COURSE/iclab/iclab39/FP/04_MEM/RA1SH.v,50|11): recompiling design unit worklib.RA1SH:v.
+	First compiled from line 50 of /misc/RAID2/COURSE/iclab/iclab39/FP/04_MEM/RA1SH.v.
+(`include file: /misc/RAID2/COURSE/iclab/iclab39/FP/04_MEM/RA1SH.v line 50, `include file: CNN.v line 2, file: TESTBED.v line 4)
+	module worklib.RA1SH:v
+		errors: 0, warnings: 1
+// 取[13:8]
+   |
+ncvlog: *W,NONPRT (CNN.v,10|3): non-printable character (0xe5) ignored.
+(`include file: CNN.v line 10, file: TESTBED.v line 4)
+// 取[13:8]
+    |
+ncvlog: *W,NONPRT (CNN.v,10|4): non-printable character (0x8f) ignored.
+(`include file: CNN.v line 10, file: TESTBED.v line 4)
+// 取[13:8]
+     |
+ncvlog: *W,NONPRT (CNN.v,10|5): non-printable character (0x96) ignored.
+(`include file: CNN.v line 10, file: TESTBED.v line 4)
+// 四捨五入
+   |
+ncvlog: *W,NONPRT (CNN.v,11|3): non-printable character (0xe5) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+    |
+ncvlog: *W,NONPRT (CNN.v,11|4): non-printable character (0x9b) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+     |
+ncvlog: *W,NONPRT (CNN.v,11|5): non-printable character (0x9b) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+      |
+ncvlog: *W,NONPRT (CNN.v,11|6): non-printable character (0xe6) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+       |
+ncvlog: *W,NONPRT (CNN.v,11|7): non-printable character (0x8d) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+        |
+ncvlog: *W,NONPRT (CNN.v,11|8): non-printable character (0xa8) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+         |
+ncvlog: *W,NONPRT (CNN.v,11|9): non-printable character (0xe4) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+          |
+ncvlog: *W,NONPRT (CNN.v,11|10): non-printable character (0xba) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+           |
+ncvlog: *W,NONPRT (CNN.v,11|11): non-printable character (0x94) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+            |
+ncvlog: *W,NONPRT (CNN.v,11|12): non-printable character (0xe5) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+             |
+ncvlog: *W,NONPRT (CNN.v,11|13): non-printable character (0x85) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 四捨五入
+              |
+ncvlog: *W,NONPRT (CNN.v,11|14): non-printable character (0xa5) ignored.
+(`include file: CNN.v line 11, file: TESTBED.v line 4)
+// 正確率：8
+   |
+ncvlog: *W,NONPRT (CNN.v,14|3): non-printable character (0xe6) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+    |
+ncvlog: *W,NONPRT (CNN.v,14|4): non-printable character (0xad) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+     |
+ncvlog: *W,NONPRT (CNN.v,14|5): non-printable character (0xa3) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+      |
+ncvlog: *W,NONPRT (CNN.v,14|6): non-printable character (0xe7) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+       |
+ncvlog: *W,NONPRT (CNN.v,14|7): non-printable character (0xa2) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+        |
+ncvlog: *W,NONPRT (CNN.v,14|8): non-printable character (0xba) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+         |
+ncvlog: *W,NONPRT (CNN.v,14|9): non-printable character (0xe7) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+          |
+ncvlog: *W,NONPRT (CNN.v,14|10): non-printable character (0x8e) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+           |
+ncvlog: *W,NONPRT (CNN.v,14|11): non-printable character (0x87) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+            |
+ncvlog: *W,NONPRT (CNN.v,14|12): non-printable character (0xef) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+             |
+ncvlog: *W,NONPRT (CNN.v,14|13): non-printable character (0xbc) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+// 正確率：8
+              |
+ncvlog: *W,NONPRT (CNN.v,14|14): non-printable character (0x9a) ignored.
+(`include file: CNN.v line 14, file: TESTBED.v line 4)
+module CNN(
+         |
+ncvlog: *W,RECOME (CNN.v,17|9): recompiling design unit worklib.CNN:v.
+	First compiled from line 17 of CNN.v.
+(`include file: CNN.v line 17, file: TESTBED.v line 4)
+	module worklib.CNN:v
+		errors: 0, warnings: 1
+	module worklib.TESTBED:v
+		errors: 0, warnings: 0
+ncvlog: *W,LIBNOU: Library "../04_MEM/RA1SH.v" given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 55
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		TESTBED
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.CNN:v <0x75443096>
+			streams: 401, words: 237304
+		worklib.PATTERN:v <0x2a68eb98>
+			streams:  18, words: 37293
+		worklib.RA1SH:v <0x12e0d13f>
+			streams:  14, words:  8259
+		worklib.TESTBED:v <0x7b9ba325>
+			streams:   1, words:   554
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  4       4
+		Primitives:              19       2
+		Timing outputs:           4       1
+		Registers:              117     117
+		Scalar wires:            18       -
+		Expanded wires:          15       3
+		Vectored wires:           1       -
+		Always blocks:           19      19
+		Initial blocks:           8       8
+		Cont. assignments:        0       4
+		Pseudo assignments:       5       5
+		Timing checks:           55       -
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.TESTBED:v
+Loading snapshot worklib.TESTBED:v .................... Done
+*Verdi3* Loading libsscore_ius131.so
+*Verdi3* : Enable Parallel Dumping.
+ncsim> source /usr/INCISIV/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi3_K-2015.09-SP2, Linux, 02/26/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* : Create FSDB file 'CNN.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +mda dumping.
+*Verdi3* : End of traversing.
+[32m* Reset Finish   *[0m
+[32m* RTL Simulation *[0m
+[32m-------------------------------------------------------------------[0m
+[32m                         Congratulations!                          [0m
+[32m                  You have passed all patterns!                    [0m
+[32m                      Your clock period = 10.0 ns                 [0m
+[32m                      Your accuracy = 0.9132                  [0m
+[32m-------------------------------------------------------------------[0m
+Simulation complete via $finish(1) at time 3359680 NS + 2
+ncsim> exit
+TOOL:	irun	13.10-s005: Exiting on Jan 16, 2018 at 10:18:00 CST  (total: 00:00:26)

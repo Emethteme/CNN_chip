@@ -1,0 +1,12 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+TESTBED.v
+-define
+RTL
+-debug
+-v
+../04_MEM/RA1SH.v
+-notimingchecks
++incdir+/usr/synthesis/dw/sim_ver

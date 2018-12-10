@@ -1,0 +1,157 @@
+ncsim 13.10-s005
+Linux 2.6.32-573.el6.x86_64 #1 SMP Thu Jul 23 15:44:03 UTC 2015 x86_64
+CPU cores: 4
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			1024
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+REMOTEHOST=ip-193-118.cs.nctu.edu.tw
+MANPATH=/usr/share/man:/usr/man:/usr/X11R6/man:/usr/lib/perl5/man:/usr/kerberos/man:/usr/local/man
+HOSTNAME=ee03.EE.NCTU.edu.tw
+SYNTEST_TMP=.
+SELINUX_ROLE_REQUESTED=
+HOST=ee03.EE.NCTU.edu.tw
+TERM=xterm
+SHELL=/bin/tcsh
+SSH_CLIENT=140.113.193.118 65415 22
+PERL5LIB=/RAID2/EDA/synopsys/saed_mc/lib
+SELINUX_USE_CURRENT_RANGE=
+MGC_LOCATION_MAP=NO_MAP
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/7
+LC_ALL=C
+HSP_HOME=/usr/hspice/hspice
+GROUP=iclab
+USER=iclab39
+LD_LIBRARY_PATH=/usr/verdi/share/PLI/IUS/LINUX:/usr/hspice/hspice/linux:/RAID2/EDA/cadence/EDI/cur/tools/lib:/usr/ius81/tools/lib:/usr/X11R6/lib:/usr/lib:/lib
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+HOSTTYPE=x86_64-linux
+ENCOUNTER=/RAID2/EDA/cadence/EDI/cur/tools/fe
+AMSHOME=/usr/ius81
+LIBPATH=/usr/hspice/hspice/linux
+MAIL=/var/spool/mail/iclab39
+PATH=/usr/matlab/bin:/usr/icc/bin:/RAID2/EDA/syntest/syntest_2009.03_linux/bin:/usr/ads/bin:/usr/calibre/bin:/usr/calibre:/usr/verdi/bin:/usr/verdi/nCompare/bin:/usr/verdi/nLint/bin:/usr/laker/bin:/RAID2/EDA/synopsys/lc/cur/bin:/RAID2/EDA/synopsys/saed_mc/bin:/usr/vcs/bin:/usr/vcs/linux/util:/RAID2/EDA/synopsys/customexplorer/vG-2012.06-SP2/bin:/usr/tx/linux/syn/bin:/usr/pp/linux/syn/bin:/usr/pt/bin:/usr/syn/linux/syn/bin:/usr/hspice/hspice/../sx_2009.09_linux/bin/:/usr/hspice/hspice/bin:/usr/hspice/hspice/linux:/usr/synthesis/bin/:/RAID2/EDA/cadence/EDI/cur/tools/celtic/bin:/RAID2/EDA/cadence/EDI/cur/tools/plato/bin:/RAID2/EDA/cadence/EDI/cur/tools/dfII/bin:/RAID2/EDA/cadence/EDI/cur/tools/fe/bin:/RAID2/EDA/cadence/EDI/cur/tools/cdsdoc/bin:/RAID2/EDA/cadence/EDI/cur/tools/bin:/RAID2/EDA/cadence/EDI/cur//tools/tlfUtil/bin:/usr/INCISIV/tools/bin:/usr/EDI/tools/bin:/usr/mmsim61/tools/bin:/usr/ic/tools/dfII/bin:/usr/ic/tools/bin:/usr/sbin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin
+OAHOME=/RAID2/EDA/cadence/EDI/cur/oa
+PWD=/RAID2/COURSE/iclab/iclab39/FP/01_RTL
+VCS_HOME=/usr/vcs
+EDITOR=nedit
+LANG=C
+KDE_IS_PRELINKED=1
+VCS_ARCH_OVERRIDE=linux
+OA_HOME=/RAID2/EDA/cadence/EDI/cur/oa
+KDEDIRS=/usr
+SELINUX_LEVEL_REQUESTED=
+VCS_CC=gcc
+CDSHOME=/usr/cadence
+LM_LICENSE_FILE=26585@lscic:5280@lsnctu:26585@lsnctu:5219@lsnctu:1717@lsnctu
+SYNOPSYS=/usr/syn
+CDS_Netlisting_Mode=Analog
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SHLVL=2
+HOME=/RAID2/COURSE/iclab/iclab39
+MC_HOME=/RAID2/EDA/synopsys/saed_mc
+OSTYPE=linux
+MGC_HOME=/RAID2/EDA/mentor/x86_cal_2012.2_26.20/
+SAED_MC_32_28_PDK=/RAID2/EDA/synopsys/saed_mc/etc/techs/SAED_PDK_32/
+HPEESOF_DIR=/usr/ads
+MGC_TMPDIR=/tmp
+VENDOR=unknown
+MATLAB=/usr/matlab/
+MACHTYPE=x86_64
+LOGNAME=iclab39
+ENABLE_STARTUP_LOCALE=iso_8859_1
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+LC_CTYPE=iso_8859_1
+SSH_CONNECTION=140.113.193.118 65415 140.113.201.3 22
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SHLIB_PATH=/usr/hspice/hspice/linux:/usr/lib
+CC=gcc
+DISPLAY=localhost:10.0
+SYNTEST=/RAID2/EDA/syntest/syntest_2009.03_linux
+G_BROKEN_FILENAMES=1
+_=/usr/INCISIV/tools/bin/irun
+/misc/RAID2/COURSE/iclab/iclab39/FP/01_RTL/INCA_libs/irun.lnx86.13.10.nc/svpp.ts
+CDS_ARCH=lnx86
+NCRUNMODE=irun:./INCA_libs/irun.lnx86.13.10.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/INCISIV/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=irun
+argv[1]=TESTBED.v
+argv[2]=-define
+argv[3]=RTL
+argv[4]=-debug
+argv[5]=-v
+argv[6]=../04_MEM/RA1SH.v
+argv[7]=-notimingchecks
+argv[8]=+incdir+/usr/synthesis/dw/sim_ver
+102 profile - 100
+          CPU/Mem usage: 0.030 sys,  0.020 user,  46.22M sys,  0.00M vm
+103 VC callback profile - scalar:0 vector:0
+104 Tue Jan 16 10:17:35 2018
+105 pliAppInit
+106 *Verdi3* : Enable Parallel Dumping.
+107 pliAppMiscSet: New Sim Round
+108 pliEntryInit
+109 LIBSSCORE=found /usr/verdi/share/PLI/IUS/LINUX/libsscore_ius131.so through $LD_LIBRARY_PATH setting.
+110 argv[0]: CNN.fsdb
+111 argv[0]: 0
+112 argv[1]: +mda
+113 FSDB Dumper for IUS, Release Verdi3_K-2015.09-SP2, Linux, 02/26/2016
+114 (C) 1996 - 2016 by Synopsys, Inc.
+115 sps_call_fsdbDumpfile at 0 : /RAID2/COURSE/iclab/iclab39/FP/01_RTL/TESTBED.v(19)
+116 argv[0]: CNN.fsdb
+117 *Verdi3* : Create FSDB file 'CNN.fsdb'
+118 sps_call_fsdbDumpvars at 0 : /RAID2/COURSE/iclab/iclab39/FP/01_RTL/TESTBED.v(21)
+119 argv[0]: 0
+120 argv[1]: +mda
+121 *Verdi3* : Begin traversing the scopes, layer (0).
+122 *Verdi3* : Enable +mda dumping.
+123 Cell instance `TESTBED.I_CNN.R1'.
+124 *Verdi3* : End of traversing.
+125 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.040 sys,  0.030 user,  192.81M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  3.71M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  3.71M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  3.71M sys,  0.00M vm
+
+          Count usage: 577 var,  567 idcode,  567 callback
+                 incr: 577 var,  567 idcode,  567 callback
+                 accu: 577 var,  567 idcode,  567 callback
+            accu incr: 577 var,  567 idcode,  567 callback
+126 VC callback profile - scalar:0 vector:0
+127 Tue Jan 16 10:17:35 2018
+128 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.040 sys,  0.030 user,  193.86M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  4.76M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 577 var,  567 idcode,  567 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 577 var,  567 idcode,  567 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+129 VC callback profile - scalar:148 vector:419
+130 Tue Jan 16 10:17:35 2018
+131 End of simulation at 335968000
+132 VC callback profile - scalar:4706811 vector:125314868
+133 Tue Jan 16 10:17:59 2018
+134 Parallel profile    -  Flush:3 ProduceWait:0 ConsumerWait:793 BlockUsed:794
+135                        ProduceTime:24.332514155 ConsumerTime:13.980411986
+136 SimExit
+137 Sim process exit
