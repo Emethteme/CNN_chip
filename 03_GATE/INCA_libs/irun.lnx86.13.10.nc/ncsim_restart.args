@@ -1,0 +1,24 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-NONTCGLITCH
+-MESSAGES
++EMGRLOG
+irun.log
+-XLSTIME
+1516069603
+-XLKEEP
+-XLMODE
+./INCA_libs/irun.lnx86.13.10.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx86.13.10.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.13.10.nc/hdl.var
+-XLNAME
+irun
+-XLVERSION
+"TOOL:	irun	13.10-s005"
+-XLNAME
+./INCA_libs/irun.lnx86.13.10.nc/ee03.EE.NCTU.edu.tw_17761

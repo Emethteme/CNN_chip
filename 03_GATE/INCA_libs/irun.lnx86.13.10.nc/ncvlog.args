@@ -1,0 +1,24 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx86.13.10.nc
+-RUNMODE
+TESTBED.v
+-DEFINE
+GATE
+-VFILE
+/RAID2/COURSE/iclab/iclabta01/umc18_neg.v
+../04_MEM/RA1SH.v
+-INCDIR
+/usr/synthesis/dw/sim_ver/
+-CDSLIB
+./INCA_libs/irun.lnx86.13.10.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.13.10.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx86.13.10.nc/xllibs
+-ALLOWUNBOUND
