@@ -1,0 +1,14 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-VFILE
+/misc/RAID2/COURSE/iclab/iclabta01/umc018/Verilog/umc18io3v5v.v
+-VFILE
+/misc/RAID2/COURSE/iclab/iclabta01/umc018/Verilog/umc18_neg.v
+-VFILE
+../04_MEM/RA1SH.v
+-DEFINE
+POSIM
+-INCDIR
+/usr/syn/dw/sim_ver

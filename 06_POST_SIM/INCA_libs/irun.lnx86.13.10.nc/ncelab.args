@@ -1,0 +1,23 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
++define+POSIM
++access+wr
++maxdelays
++incdir+/usr/syn/dw/sim_ver
+-noshowtop
+-ACCESS
++wr
+-MAXDELAYS
+-MESSAGES
+-XLMODE
+./INCA_libs/irun.lnx86.13.10.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx86.13.10.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.13.10.nc/hdl.var
+-WORK
+worklib
+-HASXLMODE

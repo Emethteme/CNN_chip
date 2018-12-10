@@ -1,0 +1,3 @@
+define RA1SH ./RA1SH
+define umc18_neg ./umc18_neg
+define umc18io3v5v ./umc18io3v5v
