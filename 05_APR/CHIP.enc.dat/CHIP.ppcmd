@@ -1,0 +1,130 @@
+# PPCMD 1 
+# sroute -connect { corePin } -layerChangeRange { met1 met6 } -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -allowJogging 1 -crossoverViaLayerRange { met1 met6 } -allowLayerChange 1 -nets { GND VDD } -targetViaLayerRange { met1 met6 }
+# 6 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# SELECTED_OBJECTS 
+# selectInst {CNN/R1}
+# END_SELECTED_OBJECTS 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit met6 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit met4 -set_to_set_distance 80 -skip_via_on_pin Standardcell -stacked_via_top_layer met6 -padcore_ring_top_layer_limit met6 -spacing 0.28 -merge_stripes_value 0.66 -direction horizontal -layer met5 -block_ring_bottom_layer_limit met4 -width 4 -nets {GND VDD} -stacked_via_bottom_layer met1
+# 5 
+# 2 
+# 1 
+# 0 
+# 0 
+# 2 
+# SELECTED_OBJECTS 
+# selectInst {CNN/R1}
+# END_SELECTED_OBJECTS 
+# BOX_LIST 
+# 263660 272710 1408480 1404980 0 
+# 272940 281990 1399200 1395700 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VDD 4000 5 0 299400 1373680 80000 0 0 
+# GND 4000 5 0 295120 1373680 80000 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+
+# PPCMD 3 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit met6 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit met4 -set_to_set_distance 80 -skip_via_on_pin Standardcell -stacked_via_top_layer met6 -padcore_ring_top_layer_limit met6 -spacing 0.28 -merge_stripes_value 0.66 -direction horizontal -layer met5 -block_ring_bottom_layer_limit met4 -width 4 -nets {GND VDD} -stacked_via_bottom_layer met1
+# 4 
+# 2 
+# 1 
+# 0 
+# 0 
+# 2 
+# SELECTED_OBJECTS 
+# selectInst {CNN/R1}
+# END_SELECTED_OBJECTS 
+# BOX_LIST 
+# 263660 272710 1408480 1404980 0 
+# 272940 281990 1399200 1395700 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VDD 4000 5 0 299400 1373680 80000 0 0 
+# GND 4000 5 0 295120 1373680 80000 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 3 
+
+# PPCMD 4 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit met5 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit met3 -set_to_set_distance 100 -skip_via_on_pin Standardcell -stacked_via_top_layer met6 -padcore_ring_top_layer_limit met5 -spacing 0.28 -merge_stripes_value 0.66 -layer met4 -block_ring_bottom_layer_limit met3 -width 2 -nets {GND VDD} -stacked_via_bottom_layer met1
+# 3 
+# 2 
+# 1 
+# 0 
+# 0 
+# 2 
+# SELECTED_OBJECTS 
+# selectInst {CNN/R1}
+# END_SELECTED_OBJECTS 
+# BOX_LIST 
+# 263660 263710 1408480 1395980 0 
+# 272940 272990 1399200 1386700 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VDD 2000 4 0 297300 1386350 100000 0 0 
+# GND 2000 4 0 295020 1386350 100000 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 4 
+
+# PPCMD 5 
+# sroute -connect { padPin } -layerChangeRange { met1 met6 } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -allowJogging 1 -crossoverViaLayerRange { met1 met6 } -nets { GND VDD } -allowLayerChange 1 -targetViaLayerRange { met1 met6 }
+# 2 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# SELECTED_OBJECTS 
+# selectInst {CNN/R1}
+# END_SELECTED_OBJECTS 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 5 
+
+# PPCMD 6 
+# addRing -skip_via_on_wire_shape Noshape -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 9 -width_bottom 9 -width_top 9 -use_interleaving_wire_group 1 -spacing_top 0.28 -skip_via_on_pin Standardcell -layer_bottom met3 -center 1 -stacked_via_top_layer met6 -width_right 9 -use_wire_group 1 -type core_rings -jog_distance 0.66 -offset_bottom 0.66 -layer_top met3 -threshold 0.66 -offset_left 0.66 -spacing_right 0.28 -spacing_left 0.28 -offset_right 0.66 -offset_top 0.66 -layer_right met2 -nets {GND VDD} -follow core -stacked_via_bottom_layer met1 -layer_left met2
+# 1 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# SELECTED_OBJECTS 
+# selectInst {CNN/R1}
+# END_SELECTED_OBJECTS 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VDD 9000 3 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 840570 212530 840570 231090 840570 249650 840570 268210 840570 1400480 840570 1419040 840570 1437600 840570 1456160 
+# END_RING_PT_INFO_LIST 
+# VDD 9000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 212480 834345 231040 834345 249600 834345 268160 834345 1412980 834345 1431540 834345 1450100 834345 1468660 834345 
+# END_RING_PT_INFO_LIST 
+# GND 9000 3 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 840570 221810 840570 240370 840570 258930 840570 277490 840570 1391200 840570 1409760 840570 1428320 840570 1446880 
+# END_RING_PT_INFO_LIST 
+# GND 9000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 221760 834345 240320 834345 258880 834345 277440 834345 1403700 834345 1422260 834345 1440820 834345 1459380 834345 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 6 
+
