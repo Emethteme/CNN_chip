@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : CNN
+Version: K-2015.06-SP1
+Date   : Tue Jan 16 10:26:08 2018
+****************************************
+
+Library(s) Used:
+
+    slow (File: /RAID2/COURSE/iclab/iclabta01/umc018/Synthesis/slow.db)
+    USERLIB (File: /misc/RAID2/COURSE/iclab/iclab39/FP/04_MEM/RA1SH.db)
+
+Number of ports:                           23
+Number of nets:                         25344
+Number of cells:                        24931
+Number of combinational cells:          22254
+Number of sequential cells:              2676
+Number of macros/black boxes:               1
+Number of buf/inv:                       3285
+Number of references:                     114
+
+Combinational area:             376977.595641
+Buf/Inv area:                    33084.375580
+Noncombinational area:          187030.168091
+Macro/Black Box area:            30409.544922
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                594417.308654
+Total area:                 undefined
+1
