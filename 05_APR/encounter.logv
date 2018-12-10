@@ -1,0 +1,199 @@
+[01/16 10:47:03     0s] Checking out Encounter license ...
+[01/16 10:47:03     0s] 	edsxl		CHECKED OUT:	"Encounter_Digital_Impl_Sys_XL"
+[01/16 10:47:03     0s] Encounter_Digital_Impl_Sys_XL 14.2 license checkout succeeded.
+[01/16 10:47:03     0s] You can run 2 CPU jobs with the base license that is currently checked out.
+[01/16 10:47:03     0s] If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+[01/16 10:47:08     4s] *******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+[01/16 10:47:08     4s] @(#)CDS: Encounter v14.24-s039_1 (64bit) 04/28/2015 11:46 (Linux 2.6.18-194.el5)
+[01/16 10:47:08     4s] @(#)CDS: NanoRoute v14.24-s029 NR150421-2040/14_24-UB (database version 2.30, 264.6.1) {superthreading v1.25}
+[01/16 10:47:08     4s] @(#)CDS: CeltIC v14.24-s017_1 (64bit) 04/17/2015 04:49:06 (Linux 2.6.18-194.el5)
+[01/16 10:47:08     4s] @(#)CDS: AAE 14.24-s007 (64bit) 04/28/2015 (Linux 2.6.18-194.el5)
+[01/16 10:47:08     4s] @(#)CDS: CTE 14.24-s019_1 (64bit) Apr 24 2015 04:06:27 (Linux 2.6.18-194.el5)
+[01/16 10:47:08     4s] @(#)CDS: CPE v14.24-s029
+[01/16 10:47:08     4s] @(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+[01/16 10:47:08     4s] @(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+[01/16 10:47:08     4s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[01/16 10:47:08     4s] @(#)CDS: RCDB 11.5
+[01/16 10:47:08     4s] --- Starting "Encounter v14.24-s039_1" on Tue Jan 16 10:47:08 2018 (mem=97.0M) ---
+[01/16 10:47:08     4s] --- Running on ee03.EE.NCTU.edu.tw (x86_64 w/Linux 2.6.32-573.el6.x86_64) ---
+[01/16 10:47:08     4s] This version was compiled on Tue Apr 28 11:46:37 PDT 2015.
+[01/16 10:47:08     4s] Set DBUPerIGU to 1000.
+[01/16 10:47:08     4s] Set net toggle Scale Factor to 1.00
+[01/16 10:47:08     4s] Set Shrink Factor to 1.00000
+[01/16 10:47:09     5s] 
+[01/16 10:47:09     5s] **INFO:  MMMC transition support version v31-84 
+[01/16 10:47:09     5s] 
+[01/16 10:47:09     5s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[01/16 10:47:09     5s] <CMD> suppressMessage ENCEXT-2799
+[01/16 10:47:09     5s] Sourcing tcl/tk file "/tmp/SPC_script18205" ...
+[01/16 10:47:09     5s] <CMD> setImportMode -keepEmptyModule 0
+[01/16 10:47:09     5s] <CMD_INTERNAL> loadNetlist -i verilog CHIP_SYN.v
+[01/16 10:47:09     5s] *** Begin netlist parsing (mem=321.2M) ***
+[01/16 10:47:09     5s] Reading netlist ...
+[01/16 10:47:09     5s] Backslashed names will retain backslash and a trailing blank character.
+[01/16 10:47:09     5s] Reading verilog netlist 'CHIP_SYN.v'
+[01/16 10:47:09     5s] Module CLKBUFX20 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module P8C is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module P4C is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module PVDDR is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module PVSSR is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module PVDDC is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module PVSSC is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module RA1SH is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Undeclared bus Q in module RA1SH ... created as [3:0].
+[01/16 10:47:09     5s] Undeclared bus A in module RA1SH ... created as [6:0].
+[01/16 10:47:09     5s] Undeclared bus D in module RA1SH ... created as [3:0].
+[01/16 10:47:09     5s] Module ADDHXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module DFFRHQXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module DFFRHQX2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module DFFRHQX4 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module ADDFXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module CMPR42X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module DFFSX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module DFFRHQX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR2X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AND4X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module ADDFX2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module INVX2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI222XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI211X4 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI211X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND2X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module BUFX2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI21X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module BUFX8 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module INVX4 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR2XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI221X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module XOR2XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module INVXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND2X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR2X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI211XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI2BB1XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI21XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR2BXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI32XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND2XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI2BB1XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OR2XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI2BB2XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AND2XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module ADDFHX2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module ADDFX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI21XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module INVX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR4XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND4XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module INVX3 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND3XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI211XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI32X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI211X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND4X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND3X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI31XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI2BB2XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AND2X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI22XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI2BB1X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module BUFX3 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND4BXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module BUFX4 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI31X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI21X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module INVX16 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module INVX8 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI221X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND4BX2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module ADDFHX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND2X4 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OR2X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module CLKINVX2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI222X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI2BB1X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AND2X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OR2X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module XOR2X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR4X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module MXI2X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR2X4 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI32XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI22XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module MXI2X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND4BX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI2BB1X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module MXI2XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR4BBXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR4BXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI22X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR3XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI221XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI222XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR3X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI31XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OR4XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OR3XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND2BXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND3BXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI21X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND3BX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI221X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AND2X4 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI21X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module INVX12 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR3X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND2BX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI31X2 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI2BB2X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NAND4BBXL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI211X4 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AND3XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI2BB1X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module NOR2BX1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI22X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module AOI33XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI33XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI2BB2X1 is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] Module OAI221XL is not defined and will be treated as a dummy cell.
+[01/16 10:47:09     5s] 
+[01/16 10:47:09     5s] *** Memory Usage v#1 (Current mem = 336.473M, initial mem = 97.039M) ***
+[01/16 10:47:09     5s] *** End netlist parsing (cpu=0:00:00.3, real=0:00:00.0, mem=336.5M) ***
+[01/16 10:47:09     5s] <CMD> setTopCell CHIP
+[01/16 10:47:09     5s] Set top cell to CHIP.
+[01/16 10:47:09     5s] **WARN: (ENCSYC-6162):	Command 'uniquifyNetlist' is obsolete and will be removed in future release. The obsolete command still works in this release, but to avoid this warning and to ensure compatibility with future releases, please remove the obsolete command from your script.
+[01/16 10:47:09     5s] Starting recursive module instantiation check.
+[01/16 10:47:09     5s] No recursion found.
+[01/16 10:47:09     5s] Building hierarchical netlist for Cell CHIP ...
+[01/16 10:47:09     5s] *** Netlist is unique.
+[01/16 10:47:09     5s] Uniquify Netlist ...
+[01/16 10:47:09     5s] Writing Uniquified Netlist 'CHIP_unique.v' ...
+[01/16 10:47:09     5s] 
+[01/16 10:47:09     5s] *** Memory Usage v#1 (Current mem = 355.473M, initial mem = 97.039M) ***
+[01/16 10:47:09     5s] 
+[01/16 10:47:09     5s] *** Summary of all messages that are not suppressed in this session:
+[01/16 10:47:09     5s] Severity  ID               Count  Summary                                  
+[01/16 10:47:09     5s] WARNING   ENCSYC-6162          1  Command '%s' is obsolete and will be rem...
+[01/16 10:47:09     5s] *** Message Summary: 1 warning(s), 0 error(s)
+[01/16 10:47:09     5s] 
+[01/16 10:47:09     5s] --- Ending "Encounter" (totcpu=0:00:05.5, real=0:00:06.0, mem=355.5M) ---

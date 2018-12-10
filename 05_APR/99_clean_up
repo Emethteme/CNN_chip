@@ -1,0 +1,15 @@
+rm -rf encounter.*
+rm -rf clock_report 
+rm -rf timingReports 
+rm -rf appOption.dat
+rm -rf CHIP.rguide
+rm -rf CTS_RP_MOVE.txt
+rm -rf Clock.ctstch
+rm -rf CHIP.cts_trace
+rm -rf nanoroute_tmp_dcI46T
+rm -rf celtic
+rm -rf CHIP.conn.rpt*
+rm -rf CHIP.geom.rpt*
+rm -rf *log
+rm -rf work
+rm -rf *enc*
